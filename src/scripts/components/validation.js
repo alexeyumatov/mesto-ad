@@ -55,7 +55,6 @@ const setEventListeners = (formElement, settings) => {
   const inputList = Array.from(formElement.querySelectorAll(settings.inputSelector));
   const buttonElement = formElement.querySelector(settings.submitButtonSelector);
 
-  // Проверяем начальное состояние кнопки
   toggleButtonState(inputList, buttonElement, settings);
 
   inputList.forEach((inputElement) => {
