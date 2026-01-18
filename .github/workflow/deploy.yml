@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - mesto-final
   workflow_dispatch:
 
 jobs:
