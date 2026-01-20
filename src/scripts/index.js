@@ -252,7 +252,6 @@ const handleCardFormSubmit = (evt) => {
     });
 };
 
-// Обработчик подтверждения удаления карточки
 const handleRemoveCardSubmit = (evt) => {
   evt.preventDefault();
   const submitButton = evt.submitter;
